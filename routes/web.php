@@ -64,12 +64,7 @@ Route::get('/pendidikanekonomi', function () {
 Route::get('/pendidikanmanajemenperkantoran', function () {
     return view('prodi/pendidikanmanajemenperkantoran');
 });
-Route::get('/akreditasi', function () {
-    return view('akademik/akreditasi');
-});
-Route::get('/kurikulum', function () {
-    return view('akademik/kurikulum');
-});
+
 Route::get('/fasilitas', function () {
     return view('fasilitas/fasilitas');
 });
@@ -106,12 +101,97 @@ Route::get('/evidance', function () {
 Route::get('/area', function () {
     return view('zi/area');
 });
+<<<<<<< HEAD
 Route::get('/ruang', function () {
     return view('fasilitas/ruang');
 });
 
 
+=======
+//Akademik
+Route::get('/akreditasi', function () {
+    return view('akademik/akreditasi');
+});
+Route::get('/kurikulum', function () {
+    return view('akademik/kurikulum');
+});
+Route::get('/kelasinternasional', function () {
+    return view('akademik/kelasinternasional');
+});
+
+
+//Pelayanan Publik
+Route::get('/maklumat', function () {
+    return view('layananpublik/maklumatpelayanan');
+});
+Route::get('/jamkerja', function () {
+    return view('layananpublik/jamkerja');
+});
+Route::get('/pelayananakademik', function () {
+    return view('layananpublik/pelayananakademik');
+});
+Route::get('/pelayanannonakademik', function () {
+    return view('layananpublik/pelayanannonakademik');
+});
+>>>>>>> 8a940e159b287ae016b0ab9bc7a284de991ed3ba
 
 //TENTANG
 Route::get('/visimisi', 'App\Http\Controllers\ProfilController@showVisiMisi')->name('visimisi');
 Route::get('/sejarah', 'App\Http\Controllers\ProfilController@showSejarah')->name('sejarah');
+
+//DosenProdi
+Route::get('/dosens1pak', function () {
+    return view('dosen/s1pak');
+});
+Route::get('/dosens1akuntansi', function () {
+    return view('dosen/s1akuntansi');
+});
+Route::get('/dosens1pb', function () {
+    return view('dosen/s1pb');
+});
+Route::get('/dosens1pe', function () {
+    return view('dosen/s1pe');
+});
+Route::get('/dosens1ieki', function () {
+    return view('dosen/s1ieki');
+});
+Route::get('/dosens1manajemen', function () {
+    return view('dosen/s1manajemen');
+});
+Route::get('/dosens1manper', function () {
+    return view('dosen/s1manper');
+});
+
+//Pelayanan Akademik
+Route::get('/izinpenelitian', function () {
+    return view('pelayananakademik/izinpenelitian');
+});
+Route::get('/izinmagangmandiri', function () {
+    return view('pelayananakademik/izinmagangmandiri');
+});
+Route::get('/izinmagangkelompok', function () {
+    return view('pelayananakademik/izinmagangkelompok');
+});
+Route::get('/izinpermintaandata', function () {
+    return view('pelayananakademik/izinpermintaandata');
+});
+Route::get('/izinobservasimandiri', function () {
+    return view('pelayananakademik/izinobservasikelompok');
+});
+Route::get('/izinobservasikelompok', function () {
+    return view('pelayananakademik/izinobservasikelompok');
+});
+Route::get('/pembuatanskl', function () {
+    return view('pelayananakademik/pembuatanskl');
+});
+Route::get('/pengaduan', function () {
+    return view('pelayananakademik/pengaduan');
+});
+
+//Pelayanan Non Akademik
+Route::get('/peminjamanfasilitas', function () {
+    return view('pelayanannonakademik/peminjamanfasilitas');
+});
+Route::get('/layananpangkatjabatan', function () {
+    return view('pelayanannonakademik/layananpangkatjabatan');
+});
