@@ -4,6 +4,7 @@
   <body>
     @include('partials.navbar')
     <h1>Akuntansi</h1>
+    
     @include('partials.svg')
     @include('partials.footer')
     @include('partials.scriptbootstrap')

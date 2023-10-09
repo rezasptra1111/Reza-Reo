@@ -1,0 +1,92 @@
+.header{
+    padding: 50 px;
+}
+.header p{
+    margin-top: 10 px;
+
+}
+.hero{
+    height: 500px;
+    background-image:url(lab.jpg) ;
+    background-size: auto;
+}
+h2{
+    width: 500px;
+    
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.paragraf{
+    padding: 50px;
+}
+.paragraf p{
+    margin-bottom: 10px;
+}
+.content{
+    padding: 100px;
+    margin-top: 100px;
+}
+.kiri{
+    width:300px ;
+    float: left;
+    background-color: orangered;
+    padding: 20px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+   
+}
+.kanan{
+    width:300px ;
+    float: left;
+    background-color: orange;
+    padding: 20px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+   
+
+}
+.samping{
+    
+    width:300px ;
+    float: left;
+    background-color: orangered;
+    padding: 20px;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+   
+   
+
+}
+
+img{
+    width: 200px;
+    padding: auto;
+    
+}
+h3{
+    text-align: center;
+    padding: 20px;
+}
+.img{
+    padding:100px ;
+    width: 500px;
+    
+}
+.gallery-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 14px;
+  }

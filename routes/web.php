@@ -37,8 +37,8 @@ Route::get('/labkom', function () {
 Route::get('/microteaching', function () {
     return view('fasilitas/microteaching');
 });
-Route::get('/spacex', function () {
-    return view('fasilitas/spacex');
+Route::get('/microteaching', function () {
+    return view('fasilitas/microteaching');
 });
 Route::get('/smartclassroom', function () {
     return view('fasilitas/smartclassroom');
@@ -106,6 +106,11 @@ Route::get('/evidance', function () {
 Route::get('/area', function () {
     return view('zi/area');
 });
+Route::get('/ruang', function () {
+    return view('fasilitas/ruang');
+});
+
+
 
 //TENTANG
 Route::get('/visimisi', 'App\Http\Controllers\ProfilController@showVisiMisi')->name('visimisi');

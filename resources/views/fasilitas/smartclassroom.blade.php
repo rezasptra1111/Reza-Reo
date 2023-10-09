@@ -1,35 +1,61 @@
 <!doctype html>
 <html lang="en">
-  @include('partials.head')
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/upi.png">
+    <title>Website FPEB UPI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="csss/ini.css">
+  </head>
   <body>
     @include('partials.navbar')
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="px-4">
-            <br><h2>Smartclassroom</h2><br>
-            <div class="row">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore vel neque, ut quaerat unde nostrum suscipit ratione beatae libero ea ipsa alias eligendi error dolorem obcaecati earum voluptatum? Ullam nihil nobis cum, consequatur laudantium debitis. Cumque reprehenderit maiores, in expedita quisquam blanditiis voluptas odit maxime placeat eos vitae! A quasi odio labore laborum veniam earum eos pariatur quia culpa sed voluptate aspernatur deserunt, qui tenetur iure nemo. Tenetur ab nostrum eius mollitia debitis aliquid, maxime deleniti accusamus qui facilis magnam optio sit voluptatem libero ratione consectetur. Maiores laboriosam nam modi quia deserunt aperiam necessitatibus quo? Qui sit explicabo rerum nam.</p>
-             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos temporibus sed labore nobis ea esse necessitatibus? Quae quia enim obcaecati quas veritatis, similique quis officia aspernatur esse iusto unde sunt vero ullam sequi id repudiandae inventore? Odio, iusto error soluta harum rerum laborum? Vitae eveniet excepturi similique molestiae dolores omnis. Amet tenetur dolorem quisquam aperiam nobis odio tempore magnam illum ad? Aliquid velit earum provident molestias explicabo nobis eligendi accusantium fugit ipsam repellat. Optio eos, similique necessitatibus impedit excepturi expedita.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="img/fasilitas/sc.jpg" width="410" alt="">
-          </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img src="img/fasilitas/smartclassroom.jpg" width="410" alt="">
-        </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="img/fasilitas/sc2.jpg" width="410" alt=""><br><br>
-      </div>
+    <div class="container">
+      <div class="header">
+        <h1></h1>
+        <br><p></p>
+</div>
+ <div>
+  <div class="hiro">
+  <div class="paragraf">
+    <h2>FPMIPA UPI  SmartClassroom</h2>
+    <p>Bandung – UPI Setelah dipersiapkan selama 2 tahun, Rektor Universitas Pendidikan Indonesia, Prof. Dr. Solehuddin, M.A., M.Pd. akhirnya meresmikan smart classroom Fakultas Pendidikan Ilmu Pengetahuan Alam yang dihadiri oleh para perwakilan dosen pada (01/04/2022) di Gedung JICA, FPMIPA UPI. Dalam sambutan peresmian Smart Classroom FPMIPA tersebut, Rektor Universitas Pendidikan Indonesia, menyampaikan harapan besarnya untuk membangun empat belas smart classroom di seluruh Fakultas, Kampus Daerah, dan termasuk Sekolah Pascasarjana yang ada di UPI. “Dan saya merencanakan, mudah-mudahan selama 5 tahun itu yang dari satu itu bisa dilipatgandakan jumlahnya menjadi sembilan tambah lima menjadi empat belas smart classroom. kenapa empat belas? Karena ada delapan fakultas, tambah satu SPS (Sekolah Pascasarjana), tambah lima Kamda (Kampus Daerah). Sehingga saya harap minimal di UPI itu insyaallah akan ada empat belas (smart classroom)</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quidem error amet saepe reprehenderit molestiae at ut dolorum, nobis ullam!</p>
+
+  <br></div>
+  <div class="gallery-row">
+  <div calss="content">
+    <div class="kiri">
+      <h3>SmartClassroom</h3>
+      <img src="img/smart.jpg">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, cum?</p>
+
+
   </div>
-      </section>
+  <div class="kanan">
+      <h3>SmartClassroom</h3>
+      <img src="img/smart.jpg">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, cum?</p>
+      </div>
+      <div class="samping">
+      <h3>SmartClassroom</h3>
+      <img src="img/smart1.jpg">
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, cum?</p>
+      
+
+      </div>
+
+      
+ </div>
+</div>
+</div>
+<br><br><br><br><br><br<br><br><br><br><br><br<br><br><br><br><br><br<br><br><br><br><br><br<br><br><br><br><br><br<br><br><br><br><br></div>
+
+
+
     @include('partials.footer')
     @include('partials.scriptbootstrap')
   </body>

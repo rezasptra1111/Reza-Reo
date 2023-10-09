@@ -1,0 +1,80 @@
+
+/* Team Section */
+.team-header {
+    text-align: center;
+    padding: 32px;
+  }
+  .team-header h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #04080d;
+  }
+  .about-header h1 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: #0e1012;
+  }
+  * {
+    box-sizing: border-box;
+  }
+ 
+  .site-title h1 {
+    font-weight: 400;
+    font-family: "Lora", sans-serif;
+    color:#fe5100;
+    font-size: 2rem;
+    margin: 0;
+  }
+  .subtitle {
+    font-weight: 700;
+    color: #0b0b0c;
+    font-size: 0.75rem;
+    margin: 0;
+    text-transform: capitalize;
+  }
+  .container {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .container-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header {
+    background-color: white;
+    padding: 2em 0;
+    box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.19);
+  }
+  
+  
+  
+  nav a {
+    text-decoration: none;
+    color: #131519;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 2em 0;
+  }
+ 
+ 
+  
+ 
+  
+  
+  .btn-hire {
+    background-color: #fe5100;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  

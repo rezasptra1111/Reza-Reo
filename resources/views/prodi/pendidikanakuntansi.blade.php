@@ -40,11 +40,29 @@
                   (2) Menyelenggarakan penelitian dan publikasi ilmiah yang berkaitan dengan pengembangan pengajaran akuntansi dan pengembangan ilmu akuntansi; <br>
                   
                   (3) melaksanakan pengabdian kepada masyarakat melalui kegiatan pengabdian kepada masyarakat untuk mengimplementasikan inovasi pembelajaran akuntansi di tingkat sekolah menengah dan masyaraka</div><br><br>
+                  
 
           </div>
 </div>
         </div>
       </div>
+      <div class="col-md-6 mx-5">
+       <h3 class="mb-4">Tujuan</h3>
+       <div class="mx-3 text-justify">(1) Menghasilkan sarjana pendidikan akuntansi dan keuangan; </div>
+       <div class="mx-3 text-justify">(2) Menghasilkan lulusan yang berkompeten sebagai tenaga pendidik profesional di bidang pendidikan akuntansi dan keuangan; </div>
+       <div class="mx-3 text-justify">(3) Menghasilkan karya ilmiah hasil penelitian di bidang pendidikan akuntansi untuk meningkatkan kesejahteraan masyarakat; </div>
+      <div class="mx-3 text-justify">(4) Menghasilkan karya yang dapat bermanfaat bagi masyarakat sebagai bentuk pengabdian kelembagaan kepada masyarakat.</div>
+      <br><br><br> <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="img/nasional.jpg" width="500" alt="">
+            </div>
+          </div>
+</div>
+</div>
+</div>
+<br><br><br><br></div>
+
     @include('partials.footer')
     @include('partials.scriptbootstrap')
   </body>
